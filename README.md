@@ -1,6 +1,6 @@
 # 🎭 Mime Party
 
-**Play now: [repeale.github.io/mime-game](https://repeale.github.io/mime-game/)**
+**Play now: [repeale.github.io/mime-party](https://repeale.github.io/mime-party/)**
 
 A fast, silly charades/mime party game — built as a static React + TypeScript web app, optimized for mobile.
 
@@ -36,6 +36,6 @@ npm run lint     # oxlint
 
 ## Deploying
 
-Live at **[repeale.github.io/mime-game](https://repeale.github.io/mime-game/)**, deployed automatically by [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) on every push to `main` (build → `actions/upload-pages-artifact` → `actions/deploy-pages`). Trigger a manual redeploy anytime from the Actions tab (`workflow_dispatch`).
+Live at **[repeale.github.io/mime-party](https://repeale.github.io/mime-party/)**, deployed automatically by [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) on every push to `main` (build → `actions/upload-pages-artifact` → `actions/deploy-pages`). Trigger a manual redeploy anytime from the Actions tab (`workflow_dispatch`).
 
 It's a plain static site otherwise — `npm run build` outputs a `dist/` folder you can host anywhere (Netlify, Vercel, Cloudflare Pages, S3, etc). `vite.config.ts` uses relative asset paths (`base: './'`) so it works from any subpath.
